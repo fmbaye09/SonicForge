@@ -1,0 +1,52 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environment & Virtualenvs
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Output directories for generated media
+Converted/
+Separated/
+Subtitles/
+outputs/
+output/
+temp/
+tmp/
+
+# Audio/Video media files (avoid committing large binaries)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.m4a
+
+# Model weights
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

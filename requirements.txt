@@ -1,0 +1,17 @@
+# =======================================================
+# MEDIA ARSENAL - Dépendances Python
+# =======================================================
+
+# Moteur Deep Learning & Séparateur Audio
+torch
+demucs>=4.1.0
+
+# Générateur de Sous-titres Whisper
+stable-ts>=2.16.0
+
+# Backend audio optimisé (recommandé pour Windows)
+soundfile>=0.12.1
+
+# Modèles d'embeddings multilingues pour le correcteur de paroles (optionnel)
+sentence-transformers>=2.2.0
+
